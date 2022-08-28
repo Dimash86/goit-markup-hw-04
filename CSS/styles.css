@@ -95,6 +95,7 @@ body {
 .menu, .menu-contacts {
     display: flex;
     gap: 50px;
+    
 }
 
 .header-mail,
@@ -104,6 +105,13 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--accent-color);
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    fill: currentColor;
+    margin-right: 10px;
 }
 
 /* Hover-focus */
@@ -126,6 +134,7 @@ body {
     color: var(--nav-button-color);
     outline-color: var(--nav-button-color);
 }
+
 
 /* Main-hero */
 .main-hero-section {
