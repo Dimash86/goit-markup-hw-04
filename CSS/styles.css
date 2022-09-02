@@ -167,12 +167,12 @@ body {
     background-color: #2196F3;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.87;
+    line-height: 1.88;
     letter-spacing: 0.06em;
     min-width: 216px;
     border-radius: 4px;
     border-color: transparent;
-    padding: 10px 32px;
+    padding: 8px 32px;
 }
 
 /* Main-sections */
@@ -527,18 +527,19 @@ body {
     gap: 30px;
 }
 
-.portfolio-list > li {
+.portfolio-list>li {
     width: 370px;
 }
 
 .portfolio-list-link {
     text-decoration-line: none;
     color: inherit;
+    display: flex;
+    flex-direction: column;
 }
 
-.portfolio-list-link:hover .portfoliol-list-container,
-.portfolio-list-link:focus .portfoliol-list-container {
-    border: 1px solid #EEEEEE;
+.portfolio-list-link:hover,
+.portfolio-list-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
